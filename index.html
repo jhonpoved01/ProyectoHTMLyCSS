@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>DonRico</title>
+</head>
+<body>
+    <!-- section menues -->
+    <div class="contenedor">
+        <header class="header">
+            <div class="logo">
+                <p>Don<span class="text-logo-color">Rico</span></p>
+            </div>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <ion-icon class="icono-menu" name="grid-outline"></ion-icon>
+            </label>
+
+            <nav class="menues">
+                <ul class="navegacion">
+                    <li><a href="#presentation">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#eat">Menu</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- section home -->
+        <section class="presentation">
+            <div id="information">
+                <h1 data-aos="fade-right" data-aos-duration="2000">Welcome</h1>
+                <p data-aos="fade-right" data-aos-duration="2000">DonRico gives you the best</p>
+                <button data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400" type="button">today's menu</button>
+            </div>
+            <div class="presentation--imagen">
+                <img data-aos="zoom-in" data-aos-duration="2000"  src="img/hamburguesHome.avif" alt="imagen presentation">
+            </div>
+        </section>
+        <!-- section about -->
+        <section class="about">
+            <div class="about--img">
+                <img data-aos="zoom-in" data-aos-duration="2000" src="img/aboutUs.jpg" alt="">
+            </div>
+            <div class="about--us">
+                <h3 data-aos="fade-right" data-aos-duration="2000">About us</h3>
+                <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200" class="big-text">The best of our Colombian seasoning</p>
+                <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400" class="small-text">Since ancient times, the Latin condiment has been coveted by other continents, since our variety of dishes is extremely delicious.</p>
+                <button data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400">Learn More</button>
+            </div>
+        </section>
+        <!-- disches -->
+        <main class="eat">
+            <h2 class="eat--title">Popular Dishes</h2>
+            <div class="disches">
+                <article class="articulos">
+                    <div class="container-above-articulos">
+                        <img src="img/hamburgerTitle.jpg" alt="Hamburguer">
+                        <h1>meat hamburger</h1>
+                        <p class="espacio">Try the best burgers in the country</p>
+                    </div>
+                    <div class="disches--info">
+                        <p>$30.000</p>
+                        <button type="button">+</button>
+                    </div>
+                </article>
+                <article class="articulos">
+                    <div class="container-above-articulos">
+                        <img src="img/SalchipapaTitle.jpg" alt="Salchipapa">
+                        <h1>sausage and chips</h1>
+                        <p class="espacio">Super delicious sausages and fries</p>
+                    </div>
+                    <div class="disches--info">
+                        <p>$20.000</p>
+                        <button type="button">+</button>
+                    </div>
+                </article>
+                <article class="articulos">
+                    <div class="container-above-articulos">
+                        <img src="img/arroz-chinoTitile.jpg" alt="Arros Chino">
+                        <h1>Chinese rice</h1>
+                        <p class="espacio">The best flavor of Chinese rice</p>
+                    </div>
+                    <div class="disches--info">
+                        <p>$50.000</p>
+                        <button type="button">+</button>
+                    </div>
+                </article>
+                <article class="articulos">
+                    <div class="container-above-articulos">
+                        <img src="img/picada-mixtaTitle.jpg" alt="Picadas">
+                        <h1>Colombian bites</h1>
+                        <p class="espacio">The best of Colombian flavor in meat</p>
+                    </div>
+                    <div class="disches--info">
+                        <p>$60.000</p>
+                        <button type="button">+</button>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <!-- Section Services -->
+        <section class="services">
+            <div class="title-services">
+                <h3 data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200">Services</h3>
+                <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="400">We provide best food services</p>
+            </div>
+            <div class="images-services-container">
+                <div class="imagen-text">
+                    <img data-aos="zoom-in" data-aos-duration="2000" src="img/ordenarComida.jpg" alt="servicio1">
+                    <div class="text">
+                        <h3 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">Order</h3>
+                    </div>
+                </div>
+                <div class="imagen-text">
+                    <img data-aos="zoom-in" data-aos-duration="2000" src="img/envioComida.jpg" alt="servicio2">
+                    <div class="text">
+                        <h3 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">Shipping</h3>
+                    </div>
+                </div>
+                <div class="imagen-text">
+                    <img data-aos="zoom-in" data-aos-duration="2000" src="img/entregaComida.jpg" alt="servicio3">
+                    <div class="text">
+                        <h3 data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">Delivery</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200" class="menu-links">
+                    <h3>Menu links</h3>
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Menu</p>
+                    <p>Service</p>
+                    <p>Contact</p>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="2000"  class="our-service">
+                    <h3>Our Service</h3>
+                    <p>Web Design</p>
+                    <p>Web Development</p>
+                    <p>Marketing</p>
+                    <p>Product Managment</p>
+                    <p>Graphic Design</p>
+                </div>
+                <div data-aos="fade-left" data-aos-duration="2000" data-aos-delay="200" class="information">
+                    <h3>Information</h3>
+                    <p>About Us</p>
+                    <p>Delivery Information</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms & Conditions</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+
